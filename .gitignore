@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+yarn.lock
+
+# Playwright
+playwright-report/
+test-results/
+.auth/
+*.traceviewer
+
+# Test artifacts
+test-user-data/
+
+
+# Build and compiled files
+dist/
+build/
+*.js
+*.d.ts
+!scripts/**/*.js
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.eslintcache
+.prettierignore
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Misc
+.turbo/
+dist/

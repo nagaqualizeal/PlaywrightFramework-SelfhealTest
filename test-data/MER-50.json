@@ -1,0 +1,29 @@
+{
+  "url": "https://www.saucedemo.com",
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalidUser": {
+    "username": "invalidUser",
+    "password": "invalidPassword"
+  },
+  "emptyUser": {
+    "username": "",
+    "password": "validPassword"
+  },
+  "specialCharUser": {
+    "username": "specialCharacters",
+    "password": "specialCharacters"
+  },
+  "expiredUser": {
+    "username": "expiredUser",
+    "password": "expiredPassword"
+  },
+  "unauthorizedUser": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "device": "unauthorizedDevice",
+    "location": "unauthorizedLocation"
+  }
+}

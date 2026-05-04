@@ -1,0 +1,15 @@
+{
+  "llm": true,
+  "cache": true,
+  "report": true,
+
+  "llmProvider": "openai",
+
+  "openai": {
+    "model": "gpt-4o-mini"
+  },
+
+  "claude": {
+    "model": "claude-3-haiku-20240307"
+  }
+}
