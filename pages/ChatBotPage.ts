@@ -32,7 +32,7 @@ export class ChatBotPage {
      * Navigate to DSS website
      */
     async navigateToDSSWebsite(): Promise<void> {
-        await this.page.goto('https://datastreetsolutions.com/', { waitUntil: 'networkidle' });
+        await this.page.goto('https://playwright.dev/', { waitUntil: 'networkidle' });
     }
 
     /**

@@ -1,5 +1,5 @@
-import { test } from 'playwright-self-heal-agent';
-import { expect } from '@playwright/test';
+// import { test } from 'playwright-self-heal-agent';
+import { test, expect } from '../fixtures/healerFixture';
 import { LoginPage } from '../pages/LoginPage';
 import testData from '../test-data/MER-50.json';
 

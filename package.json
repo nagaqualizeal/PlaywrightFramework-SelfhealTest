@@ -22,10 +22,7 @@
     "typescript": "^5.3.0"
   },
   "dependencies": {
-    "playwright-extra": "^4.3.6",
-    "playwright-self-heal-agent": "file:../../Agents/playwright-self-heal-agent/playwright-self-heal-agent-1.0.0.tgz",
-    "playwright-stealth": "^0.0.1",
-    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "playwright-self-heal-agent": "file:./playwright-self-heal-agent-3.0.7.tgz",
     "xlsx": "^0.18.5"
   }
 }

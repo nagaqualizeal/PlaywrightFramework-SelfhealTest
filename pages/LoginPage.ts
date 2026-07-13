@@ -10,7 +10,7 @@ export class LoginPage {
     this.page = page;
     this.usernameInput = page.locator('#user-name1234');
     this.passwordInput = page.locator('#password');
-    this.loginButton = page.locator('#login-button');
+    this.loginButton = page.locator('#login-button-wrong');
   }
 
   async navigate(url: string): Promise<void> {
@@ -31,6 +31,7 @@ export class LoginPage {
 
   async loginFlow(url: string, username: string, password: string): Promise<void> {
     await this.navigate(url);
+    await this.usernameInput.waitFor({ state: 'visible' });
     await this.enterUsername(username);
     await this.enterPassword(password);
     await this.clickLogin();
