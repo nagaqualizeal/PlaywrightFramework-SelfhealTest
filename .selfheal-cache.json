@@ -1,4 +1,3 @@
 {
-  "#user-name1234": "page.getByRole('textbox', { name: 'Username' })",
-  "#login-button-wrong": "page.getByRole('button', { name: 'Login' })"
+  
 }
